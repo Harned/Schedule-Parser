@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\Schedule Parser\\Schedule Parser.csproj": {}
+    "c:\\Code\\Schedule Parser\\Schedule Parser.csproj": {}
   },
   "projects": {
-    "C:\\Code\\Schedule Parser\\Schedule Parser.csproj": {
+    "c:\\Code\\Schedule Parser\\Schedule Parser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\Schedule Parser\\Schedule Parser.csproj",
+        "projectUniqueName": "c:\\Code\\Schedule Parser\\Schedule Parser.csproj",
         "projectName": "Schedule Parser",
-        "projectPath": "C:\\Code\\Schedule Parser\\Schedule Parser.csproj",
+        "projectPath": "c:\\Code\\Schedule Parser\\Schedule Parser.csproj",
         "packagesPath": "C:\\Users\\Barmem\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\Schedule Parser\\obj\\",
+        "outputPath": "c:\\Code\\Schedule Parser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
