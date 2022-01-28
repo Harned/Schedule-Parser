@@ -1,7 +1,9 @@
-﻿using System;
+﻿using System.ComponentModel;
+using System;
 using HtmlAgilityPack;
 using System.Linq;
 using System.Text;
+using static unixtimehelper.group;
 					
 public class Program
 {
@@ -20,8 +22,9 @@ public class Program
             Console.WriteLine("row");
         foreach (HtmlNode cell in row.SelectNodes("th|td")) {
             Console.WriteLine("cell: " + cell.InnerText);
+            }
         }
     }
-}
+    DateTime timeStart = ChangeTime(DateTime.Now);
 	}
 }

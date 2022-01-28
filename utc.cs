@@ -1,6 +1,6 @@
 using System;
-
-public class unixtime
+namespace unixtimehelper{
+public class group
 {
 	// description: Showing here how to parse complex web HTML table using HTML Agility Pack C#
 	public static DateTime UtcToDateTime( double unixTimeStamp )  
@@ -23,4 +23,9 @@ public class unixtime
         dateTime = dateTime.AddSeconds( unixTimeStamp ).ToLocalTime();
         return dateTime;
     }
+    public static DateTime ChangeTime(DateTime dateTime, int hours = 0, int minutes = 0, int seconds = 0)
+    {
+        return new DateTime(dateTime.Year, dateTime.Month, dateTime.Day, hours, minutes, seconds, 0, dateTime.Kind);
     }
+}
+}
