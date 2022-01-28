@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cPbmIBusDNOFR49uNdZKbS3L02/MMaLFnq3cyA1/VXRVSRcmhVEjOaIi2HODDOnSSax4AnGryG76AEsE58JC7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\Schedule Parser\\Schedule Parser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Barmem\\.nuget\\packages\\htmlagilitypack\\1.11.40\\htmlagilitypack.1.11.40.nupkg.sha512",
+    "C:\\Users\\Barmem\\.nuget\\packages\\restsharp\\107.1.2\\restsharp.107.1.2.nupkg.sha512",
+    "C:\\Users\\Barmem\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
