@@ -15,12 +15,17 @@ public class Program
 		var web = new HtmlWeb();
         web.OverrideEncoding = Encoding.GetEncoding("windows-1251");
 		var doc = web.Load("http://fkn.omsu.ru/academics/Schedule/schedule2_1.htm");
-		// Using LINQ to parse HTML table smartly 
+		// parse HTML table
 		foreach (HtmlNode table in doc.DocumentNode.SelectNodes("//table")) {
+            int colcount = 0;
+            int rowcount = 0;
             // Console.WriteLine("Found: " + table.Id);
         foreach (HtmlNode row in table.SelectNodes("tr")) {
+            rowcount++;
+            colcount = 0;
             Console.WriteLine("row");
         foreach (HtmlNode cell in row.SelectNodes("th|td")) {
+            colcount++;
             Console.WriteLine("cell: " + cell.InnerText);
             }
         }
