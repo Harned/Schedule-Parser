@@ -23,10 +23,16 @@ public class Program
         foreach (HtmlNode row in table.SelectNodes("tr")) {
             rowcount++;
             colcount = 0;
-            Console.WriteLine("row");
+            Console.WriteLine("_______________________NewRow_______________________");
         foreach (HtmlNode cell in row.SelectNodes("th|td")) {
             colcount++;
             Console.WriteLine("cell: " + cell.InnerText);
+            if(cell.HasAttributes){
+                foreach (HtmlAttribute atr in cell.Attributes){
+                    Console.Write("atrib:" + atr.Name + " = " + atr.Value + " ");
+                }
+                Console.Write("\n");
+            }
             }
         }
     }
