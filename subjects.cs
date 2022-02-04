@@ -1,5 +1,6 @@
 using System;
 using static unixtimehelper.group;
+// Предметы
 public class Subject{
     string name = "Неизвестнвй предмет";
     string teacher = "Преподаватель неизвестен";
@@ -17,6 +18,7 @@ public class Subject{
     int subgroup = 0;
 
 }
+// Группы
 public class Group{
     string groupName = "Неизвестная группа";
     int groupid = 0;
